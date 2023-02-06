@@ -66,10 +66,12 @@ const TestimonialText = ({ children }: { children: ReactNode }) => {
 
 const TestimonialAvatar = ({
   src,
+  alt,
   name,
   title,
 }: {
   src: string;
+  alt:string;
   name: string;
   title: string;
 }) => {
@@ -109,6 +111,7 @@ export default function StudentTestimonials() {
               src={
                   '/img-hamza.jpg'
               }
+              alt={'img'}
               name={'Ali Hamza'}
               title={'Web Developer'}
             />
@@ -125,6 +128,7 @@ export default function StudentTestimonials() {
               src={
                   '/img-ali.jpeg'
               }
+              alt={'img'}
               name={'Ali Haider'}
               title={'Software  Engineer'}
             />
@@ -140,6 +144,7 @@ export default function StudentTestimonials() {
               src={
                 '/img-zubair.jpg'
               }
+              alt={'img'}
               name={'Zubair'}
               title={'Frontend Developer'}
             />
