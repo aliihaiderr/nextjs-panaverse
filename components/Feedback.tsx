@@ -111,7 +111,7 @@ export default function StudentTestimonials() {
               src={
                   '/img-hamza.jpg'
               }
-              alt={'img'}
+              alt={'img-hamza'}
               name={'Ali Hamza'}
               title={'Web Developer'}
             />
@@ -128,7 +128,7 @@ export default function StudentTestimonials() {
               src={
                   '/img-ali.jpeg'
               }
-              alt={'img'}
+              alt={'img-ali'}
               name={'Ali Haider'}
               title={'Software  Engineer'}
             />
@@ -144,7 +144,7 @@ export default function StudentTestimonials() {
               src={
                 '/img-zubair.jpg'
               }
-              alt={'img'}
+              alt={'img-zubair'}
               name={'Zubair'}
               title={'Frontend Developer'}
             />
